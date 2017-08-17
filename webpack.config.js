@@ -74,11 +74,11 @@ if (process.env.NODE_ENV === 'production') {
   module.exports.entry = './src/lib/index.js'
   module.exports.output = {
       path: path.resolve(__dirname, './dist'),
-          publicPath: '/dist/',
-          filename: "vue-element-bank-card-select.js",
-          library: 'ElementBankCardSelect',
-          libraryTarget: 'umd',
-          umdNamedDefine: true
+      publicPath: '/dist/',
+      filename: "vue-element-bank-card-select.js",
+      library: 'ElementBankCardSelect',
+      libraryTarget: 'umd',
+      umdNamedDefine: true
   }
 
   module.exports.devtool = '#source-map'

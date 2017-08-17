@@ -8,6 +8,6 @@ const bankCardSelect = {
     }
 }
 if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(paykeyboard);
+    window.Vue.use(bankCardSelect);
 }
 export default bankCardSelect
